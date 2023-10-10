@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Land-Login</title>
+    <link rel="icon" href="../TeamImage/images.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=REM&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    font-family: "REM";
+}
+:root {
+    --menu-text-color: #212f3c;
+    --button: rgb(9, 170, 162);
+    --phover: #fc5185;
+  }
+
+.child_create{
+    width: 360px;
+    background-color: #f0f0f0;
+    padding: 90px 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #727171;
+    transition: 0.3s all ease-in-out;
+    margin: 0 auto;
+    margin-top: 7%;
+  }
+  
+  .child_create h2{
+    text-align: center;
+    font-family: "REM";
+    margin-bottom: 20px;
+  }
+  
+  .child_create input{
+    margin-top: 35px;
+    padding: 15px 10px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .child_create input:focus{
+    border-bottom: 3px solid var(--button);
+  }
+  
+  .regi_btn{
+    border: none;
+    padding: 12px 147px;
+    font-size: 17px;
+    background-color: var(--button);
+    color: white;
+    font-family: "REM";
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+  }
+  
+  .regi_btn:hover{
+  color: #fff;
+  border-color: var(--button);
+  box-shadow: 5px 5px 15px var(--button);
+  }
+  .child_create h2{
+    text-align: center;
+    font-family: "REM";
+  }
+  
+  .pex{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "REM";
+    opacity: 0.6;
+  }
+
+  .child_create p{
+    text-align: center;
+    font-family: "REM";
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .child_create p a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1d9bf0;
+  }
+
+  #eye1{
+    transform: translateX(-30px);
+    opacity: 0.9;
+    font-size: 14px;
+    user-select: none;
+    cursor: pointer;
+  }
+  @media only screen and (max-width:600px){
+    .child_create{
+      width: 350px;
+      padding: 50px 40px;
+      margin-top: 24%;
+    }
+
+    .child_create input{
+      width: 300px;
+    }
+    .regi_btn{
+      padding: 10px 135px;
+    }
+  }
+
+  @media only screen and (max-width: 450px){
+    .child_create{
+      width: 300px;
+      padding: 20px;
+    }
+
+    .child_create input{
+      width: 260px;
+    }
+    .regi_btn{
+      padding: 10px 115px;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .child_create{
+      width: 260px;
+    }
+
+    .child_create input{
+      width: 220px;
+      padding: 10px;
+    }
+    .regi_btn{
+      padding: 10px 105px;
+    }
+  }
+    </style>
+</head>
+<body>
+        <div class="child_create">
+            <h2>Login Here</h2>
+            <!-- <p class="pex">Hey,</p> -->
+                <input type="text" placeholder="Phone number or email" class="ep_input" required><br>
+                <input type="password" placeholder="Your password" class="f_input" required><i class="fa-regular fa-eye-slash" id="eye1"></i><br>
+            <input type="checkbox" style="padding: 0; width: 30px; line-height: 22px; margin-top: 30px;"><span style="font-size: 17px;opacity: 0.6;">Remember me</span><br>
+
+            <button class="regi_btn"><a href="../HomePage/index.html" style="text-decoration: none; color: white;">Login</a></button>
+            <p href="">Forgot Passoword? <a href="../ResetPw/reset.html">Click Here</a></p>
+        </div>
+</body>
+<script>
+  const eye1=document.getElementById("eye1");
+const f_input=document.getElementsByClassName("f_input")[0];
+
+eye1.addEventListener("click",()=>{
+    showHide(eye1,f_input);
+  })
+  function showHide(per1,per2){
+    per1.classList.toggle("fa-eye");
+    let type=per2.getAttribute("type")==="password" ? "text" : "password";
+    per2.setAttribute("type", type);
+  } 
+</script>
+</html>

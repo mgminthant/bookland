@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sd.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=REM&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "REM";
+}
+:root {
+    --menu-text-color: #212f3c;
+    --button: rgb(9, 170, 162);
+    --phover: #fc5185;
+  }
+
+.child_create{
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 50px 80px 70px 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #727171;
+    transition: 0.3s all ease-in-out;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  .dig{
+    margin-top: 35px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 2px solid #95A5A6;
+    outline: none;
+    font-size: "REM";
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .dig:focus{
+    border: 3px solid var(--button);
+  }
+
+  .child_create h2, .reset_pw h2{
+    text-align: center;
+    font-family: "REM";
+  }
+
+  .pex{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .regi_btn{
+    border: none;
+    padding: 12px 100px;
+    font-size: 17px;
+    background-color: var(--button);
+    color: white;
+    font-family: "REM";
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 50px;
+    user-select: none;
+  }
+  
+  .regi_btn:hover{
+  color: #fff;
+  border-color: var(--button);
+  box-shadow: 5px 5px 15px var(--button);
+  }
+
+  .pex_1{
+    position: absolute;
+    opacity: 0.9;
+    font-family: "REM";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+  }
+
+  .f_input, .l_input{
+      margin-top: 35px;
+      padding: 15px 30px;
+      width: 320px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+    
+    .f_input:focus, .l_input:focus{
+      border-bottom: 3px solid var(--button);
+  }
+
+  #eye1, #eye2{
+    transform: translateX(-30px);
+    opacity: 0.9;
+    font-size: 14px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .reset_pw{
+    position: fixed;
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 50px 80px 70px 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #727171;
+    transition: 0.3s all ease-in-out;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s all ease-in-out;
+    display: none;
+  }
+
+  .top{
+    display: block;
+  }
+  .re{
+    text-decoration: none;
+    color: #59B3F0;
+    font-size: 20px;
+  }
+  .get{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  @media only screen and (max-width:600px){
+    .child_create{
+      width: 350px;
+      padding: 50px 40px;
+      margin-top: 24%;
+    margin-top: 35%;
+    }
+
+   .dig{
+    width: 40px;
+    height: 45px;
+   }
+   .get, .re{
+    font-size: 15px;
+   }
+   .regi_btn{
+    margin-left: 30px;
+   }
+   .reset_pw{
+    padding: 40px 10px;
+   }
+   .reset_pw input{
+    width: 280px;
+   }
+  }
+
+  @media only screen and (max-width: 450px){
+    .reset_pw{
+      width: 300px;
+    padding: 40px 5px;
+   }
+   .reset_pw input{
+    width: 200px;
+   }
+    .child_create{
+      width: 300px;
+      padding: 20px;
+    margin-top: 55%;
+    }
+    .regi_btn{
+    margin-left: 10px;
+   }
+    .dig{
+    width: 35px;
+    margin-left: 7px;
+    height: 45px;
+   }
+  }
+  @media only screen and (max-width: 400px){
+    .reset_pw input{
+    width: 200px;
+   }
+    .child_create{
+      width: 260px;
+    margin-top: 40%;
+    }
+    .dig{
+      width: 30px;
+    }
+.child_create h2{
+  font-size: 20px;
+}
+.pex{
+  font-size: 13px;
+}
+    .regi_btn{
+      padding: 7px 70px;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+    <div class="child_create">
+       <h2>Enter your (6) digit code</h2>
+        <p class="pex">Don't share your code to other person</p>
+        <input type="text" class="dig"><input type="text" class="dig"><input type="text" class="dig"><input type="text" class="dig"><input type="text" class="dig"><input type="text" class="dig"><br>
+        
+        <a class="regi_btn show">Confirm</a>
+        <p class="get"> Don't get Code. <a href="#" class="re">Resend Code</a></p>
+    </div>    
+    <p class="pex_1">@copyright G-Tech</p>
+    <div class="reset_pw">
+      <h2>Create your new password</h2>
+        <input type="password" placeholder="Your password" class="f_input"><i class="fa-regular fa-eye-slash" id="eye1"></i><br>
+        <input type="password" placeholder="Confirm your password" class="l_input"><i class="fa-regular fa-eye-slash" id="eye2"></i><br>
+        <a class="regi_btn" href="../LoginPage/login.html">Confirm</a>
+    </div>
+</body>
+<script>
+    const eye1=document.getElementById("eye1");
+const eye2=document.getElementById("eye2");
+const f_input=document.getElementsByClassName("f_input")[0];
+const l_input=document.getElementsByClassName("l_input")[0];
+    eye1.addEventListener("click",()=>{
+  showHide(eye1,f_input);
+})
+
+eye2.addEventListener("click",()=>{
+  showHide(eye2,l_input);
+})
+
+function showHide(per1,per2){
+  per1.classList.toggle("fa-eye");
+  let type=per2.getAttribute("type")==="password" ? "text" : "password";
+  per2.setAttribute("type", type);
+}
+
+const new_pw=document.getElementsByClassName("show")[0];
+const new_pw_form=document.getElementsByClassName("reset_pw")[0];
+const six_digit_form=document.getElementsByClassName("child_create")[0];
+
+new_pw.addEventListener("click",()=>{
+  new_pw_form.classList.add("top");
+  six_digit_form.style.display="none";
+})
+</script>
+</html>
