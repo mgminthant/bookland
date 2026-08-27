@@ -1,5 +1,7 @@
-//AIzaSyAiP-nLNDOP8TwKmmZimb4j2c0gYdztP2M
-//https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor:keyes&key=AIzaSyAiP-nLNDOP8TwKmmZimb4j2c0gYdztP2M
+// WARNING: Do not commit a real API key. Set BOOKS_API_KEY in a config file
+// (git-ignored) or inject it at build time. See config.js.
+const API_KEY = window.BOOKS_API_KEY || "";
+
 let el = document.getElementsByClassName("right_image")[0];
 
 const height = el.clientHeight;
@@ -1799,7 +1801,7 @@ async function makeSearch() {
     noname.style.display="none";
     displayLoading();
     const response = await fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${query}&key=AIzaSyAiP-nLNDOP8TwKmmZimb4j2c0gYdztP2M&maxResults=40`
+      `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${API_KEY}&maxResults=40`
     );
     const data = await response.json();
     hideLoading();
