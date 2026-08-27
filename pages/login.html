@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book-Land-Login</title>
-    <link rel="icon" href="../TeamImage/images.png">
+    <link rel="icon" href="../assets/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=REM&display=swap"
       rel="stylesheet"
@@ -12,7 +15,15 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      />
+    </noscript>
     <style>
       *{
     margin: 0;
@@ -155,8 +166,8 @@
                 <input type="password" placeholder="Your password" class="f_input" required><i class="fa-regular fa-eye-slash" id="eye1"></i><br>
             <input type="checkbox" style="padding: 0; width: 30px; line-height: 22px; margin-top: 30px;"><span style="font-size: 17px;opacity: 0.6;">Remember me</span><br>
 
-            <button class="regi_btn"><a href="../HomePage/index.html" style="text-decoration: none; color: white;">Login</a></button>
-            <p href="">Forgot Passoword? <a href="../ResetPw/reset.html">Click Here</a></p>
+            <button class="regi_btn"><a href="../index.html" style="text-decoration: none; color: white;">Login</a></button>
+            <p href="">Forgot Passoword? <a href="../pages/reset-password.html">Click Here</a></p>
         </div>
 </body>
 <script>

@@ -3,18 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./TeamImage/images.png">
+    <link rel="icon" href="./assets/images/logo.png" />
     <title>Book-Land-Home</title>
+
+    <!-- Resource hints: warm up connections to third-party hosts early -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://books.google.com" />
+    <link rel="dns-prefetch" href="https://books.google.com" />
+
+    <!-- Non-render-blocking CSS: load FA without blocking first paint -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <link rel="stylesheet" href="./HomePage/imagehover.css" />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      />
+    </noscript>
+
+    <link rel="stylesheet" href="./assets/css/imagehover.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=REM&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./HomePage/Home.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
   </head>
   <body>
     <nav>
@@ -39,7 +57,7 @@
           </div>
         <a href="#" class="create w"> Create Account </a>
       </div>
-      <img src="./TeamImage/images.png" alt="" class="acc">
+      <img src="./assets/images/logo.png" alt="" class="acc">
      
       <!-- responsive 1200px menu bar-->
       <div id="menu-icon">
@@ -67,18 +85,30 @@
           <img
             src="https://books.google.com/books/publisher/content?id=uku_BgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73AN8e5w3mmohSWX-2rjFbm4vr_vKXmfq102jLYI2mduugfEc9VPzyRODc4IWTtZbU288ZXZw_L_Q6wAfwpM6wo3j8aBkAzBsNPo4rWPVjB4kVW3cVdjL7K_Hz4QdGJP2DiaIzH&source=gbs_api"
             class="image-1"
+            fetchpriority="high"
+            decoding="async"
+            alt="Featured book cover"
           />
           <img
             src="https://books.google.com/books/publisher/content?id=uku_BgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73AN8e5w3mmohSWX-2rjFbm4vr_vKXmfq102jLYI2mduugfEc9VPzyRODc4IWTtZbU288ZXZw_L_Q6wAfwpM6wo3j8aBkAzBsNPo4rWPVjB4kVW3cVdjL7K_Hz4QdGJP2DiaIzH&source=gbs_api"
             class="image-2"
+            loading="lazy"
+            decoding="async"
+            alt=""
           />
           <img
             src="https://books.google.com/books/publisher/content?id=uku_BgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73AN8e5w3mmohSWX-2rjFbm4vr_vKXmfq102jLYI2mduugfEc9VPzyRODc4IWTtZbU288ZXZw_L_Q6wAfwpM6wo3j8aBkAzBsNPo4rWPVjB4kVW3cVdjL7K_Hz4QdGJP2DiaIzH&source=gbs_api"
             class="image-3"
+            loading="lazy"
+            decoding="async"
+            alt=""
           />
           <img
             src="https://books.google.com/books/publisher/content?id=uku_BgAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73AN8e5w3mmohSWX-2rjFbm4vr_vKXmfq102jLYI2mduugfEc9VPzyRODc4IWTtZbU288ZXZw_L_Q6wAfwpM6wo3j8aBkAzBsNPo4rWPVjB4kVW3cVdjL7K_Hz4QdGJP2DiaIzH&source=gbs_api"
             class="image-4"
+            loading="lazy"
+            decoding="async"
+            alt=""
           />
           <p class="w">2k+</p>
         </div>
@@ -130,7 +160,7 @@
       <i class="fa-solid fa-arrow-left-long leftarr" title="Clear search"></i><input type="text" placeholder="Search book name....." id="book_name" /><i class="fa-solid fa-xmark del" title="Clear text"></i><span><i class="fa-solid fa-magnifying-glass search_key"></i></span>
     </div>
     <div class="nofound">
-      <img src="../noresults.png" alt="">
+      <img src="./assets/images/noresults.png" alt="">
     </div>
     <div class="noname">
       <div class="ufo">
@@ -187,13 +217,13 @@
       <p class="or">or</p>
       <p class="or_1">Sign up with</p>
         <div class="signup_media">
-            <img src="https://img.icons8.com/color/48/undefined/google-logo.png" alt="google logo" class="img">
-            <img src="https://rb.gy/qzham" alt="" class="img">
-            <img src="https://rb.gy/i2iqt" alt="" class="img">
-            <img src="https://rb.gy/aqkd6" alt="" class="img">
-            <img src="https://img.icons8.com/ios-filled/50/undefined/mac-os.png" alt="apple logo" class="img">
+            <i class="img fa-brands fa-google" aria-label="Sign up with Google"></i>
+            <i class="img fa-brands fa-facebook-f" aria-label="Sign up with Facebook"></i>
+            <i class="img fa-brands fa-x-twitter" aria-label="Sign up with X"></i>
+            <i class="img fa-brands fa-github" aria-label="Sign up with GitHub"></i>
+            <i class="img fa-brands fa-apple" aria-label="Sign up with Apple"></i>
         </div>
-        <p id="signup">Already have an account ? <a href="./LoginPage/login.html" target="_blank">Login</a></p>
+        <p id="signup">Already have an account ? <a href="./pages/login.html" target="_blank">Login</a></p>
     </form>
   </div>
     <div class="res_menu">
@@ -269,7 +299,7 @@
       <span> </span>
       <span> </span>
       <div class="tlo_name_img">
-        <img src="./TeamImage/images.png" alt="" />
+        <img src="./assets/images/logo.png" alt="" />
         <strong class="name">Thae lin Oo</strong>
       </div>
       <p>
@@ -283,7 +313,7 @@
       <span> </span>
       <span> </span>
       <div class="tlo_name_img">
-        <img src="./TeamImage/images.png" alt="" />
+        <img src="./assets/images/logo.png" alt="" />
         <strong class="name">Swam Yee Htut</strong>
       </div>
       <p>
@@ -298,7 +328,7 @@ Studying University of Computer Studies(Pyay).From Gyobinkauk. A web developer.S
       <span> </span>
       <span> </span>
       <div class="tlo_name_img">
-        <img src="./TeamImage/images.png" alt="" />
+        <img src="./assets/images/logo.png" alt="" />
         <strong class="name">Thura Hein</strong>
       </div>
       <p>
@@ -312,7 +342,7 @@ Studying University of Computer Studies(Pyay).From Gyobinkauk. A web developer.S
       <span> </span>
       <span> </span>
       <div class="tlo_name_img">
-        <img src="./TeamImage/images.png" alt="" />
+        <img src="./assets/images/logo.png" alt="" />
         <strong class="name">San Lin Aung</strong>
       </div>
       <p>
@@ -328,7 +358,7 @@ Studying University of Computer Studies(Pyay).From Gyobinkauk. A web developer.S
       <span> </span>
       <span> </span>
       <div class="tlo_name_img">
-        <img src="./TeamImage/images.png" alt="" />
+        <img src="./assets/images/logo.png" alt="" />
         <strong class="name" style="font-size: 25px; margin-left: 10px;">Min Thant</strong>
       </div>
       <p>
@@ -367,5 +397,5 @@ Studying University of Computer Studies(Pyay).From Gyobinkauk. A web developer.S
 </div>
 
   </body>
-  <script src="./HomePage/Home.js"></script>
+  <script src="./assets/js/home.js" defer></script>
 </html>

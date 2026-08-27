@@ -82,7 +82,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=IS0tnVBwWF8C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE703O2B7yZw-6fqyy30Oy4RZ3x1V7RdjS6_RaveqSy70VrV5qKQPi086RSrtxV4G-IFFwLai24p0J9ihKRh0N8Yq9tyNfw4GJLhMLCfmU09YyXKgwLJ_mS-DxYtlaJZ8HluuMAxU&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=IS0tnVBwWF8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73t7nu_cIzEXRTFhyaIp8k_t9loRyBszVxC0JC7cOt6lyvTZaQdLqoi-o18PnVlbcMBg9UaGzAx5LIgNnu71tJ_z90FDYJ15pj0CnA0U2e2k4HzoxYHwr7ZoTVEFtAhUyhdKp5m&source=gbs_api",
         "small": "http://books.google.com/books/content?id=IS0tnVBwWF8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70jJFWAcY0gKbiFtbt5MtwOHT7tqhVEa-WvFAfkMb-sLWa4ZFUNqIdEfJ4lOtSwd6PPGg_iud7xrbmWNU4JZHv_BpBlwXNpXW7Wi1aUQn_kbJI-fRwvcMC-C73Lt6AVzGyFptah&source=gbs_api",
-        "medium": "../Images/one.jpeg",
+        "medium": "assets/images/one.jpeg",
         "large": "http://books.google.com/books/content?id=IS0tnVBwWF8C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE7196Vwu6qSalMqUnc28sb01_Xn9PQw1fjqqswRtMAg9I71qod-9Myjgdn0HzIQaIrAHwYCI1QwhugQn4dxvZLkL-0ZlWo6fFwoQBdxl5_s2M4A546B_ZK27hIzzCaxRr4NvqrQ5&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=IS0tnVBwWF8C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70qurgEgTsavXb-O5GRQ0M3-LsgTjnoeNRrb_UElCDUHr1QA1SVCxTUVMEOXUrGG4n7I0QTwzb7FhBWrD8nwiImyd9rAeRZFOet9CT5BLsFF3_flTNPfrnCeQcE3c7zO8D8s1xY&source=gbs_api"
       },
@@ -164,7 +164,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=Mc5hDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71gDCggs4ANjaNyjzPptw2SM39Y_7JSxcdKFF0jSwFVZALnlmLiQnzNUhiojUrOsf3c1BgFSrnmWj_X9rjVpR6VnKpag8PkrOFjf-lyfTYnum6JWCQ5WkCgIEsFqlgOOZ3KNz1M&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=Mc5hDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72vyO1_PCv1HNRFRR3-g0sGuVPvwBwL54xmocuYasixC_a_h_6qESUnTc0dIrzzRO7qK4oja4ktoWhiTpzvDmkmdcaE4Ry2GMkkbUk9uFwhfdI3alDAMS3-DrP_SNcuqrmcMFrJ&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=Mc5hDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73FMuVptlVurcd0855ls5p-svA9rPL5-_CMGjHR0xo72t3frCJXKHu0O49FcGcfM8NtXzbPftWlba3W8YsZgAY78jR4Cq_CeEQlyQfTuiExXglphi9UaqjdbLkNDaEHOfpG53y5&source=gbs_api",
-        "medium": "../Images/two.jpeg",
+        "medium": "assets/images/two.jpeg",
         "large": "http://books.google.com/books/publisher/content?id=Mc5hDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72vIeCrca_zWPTCtWDHZAsAllD5gtGISBPAL12xB_pR7ukMGMSlkWBICRSbWYooE0O9hWupWAZO_EgKeEba-SZqV9sPbNWJXKqbZABsaK4FtkNySb6k39C_xg4y_V3XKGGKRNdG&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=Mc5hDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70VYB-Y1WVGMYckRVr7KByPTmWyGL1eoWXtee-gR4JPCICbvsEhOikhAXFihJWER9u1N3LHBv1WZoZ3Z_dDIRiicpKz7Ci8jWtr3ygJBmKf2bPigaZntebcUFU7cKGwx99myYWN&source=gbs_api"
       },
@@ -245,7 +245,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=TK9k_omW5mQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72b8MADg9bTsTO66nXwwJe5R7Hf2ZhNGGi-mCEC5kQG4vKlT-kpzVNq7kswW9rsh33JUSKivLyscdOVU2ALmBJ54X4bU3kgftphruvyIDzd5ygF-G-3lGuow3gwphZJoUbYriVG&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=TK9k_omW5mQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73bK9TIkbYBmn7qGv1bFnB-EeCm5SPmhF4yk7cxSFApnTZLg5JAJ-ZVD0rqKz82UP7YyEDd_jwqTWZAHHT2V94D-_dNfWk5g7I81N3cgQlnawojjrxVzw4QkB5oSzVBWfFowJo2&source=gbs_api",
         "small": "http://books.google.com/books/content?id=TK9k_omW5mQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72JXcFhPvqAdGPWwiyi76fr_0jrzacgqt8MeyeJAGs8LRS3ncEtYCtVKHgBAvWOTrRRSsmjtk1949JTyun6VxSXIys-zczYO9wAPgbldqBK0YvRMgRs6pyTQazEZtHVpHo7p8Qd&source=gbs_api",
-        "medium": "../Images/three.jpeg"
+        "medium": "assets/images/three.jpeg"
       },
       "language": "en",
       "previewLink": "http://books.google.nl/books?id=TK9k_omW5mQC&hl=&source=gbs_api",
@@ -324,7 +324,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=QwnWLMtXU7cC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72M0Rtl9PN2iMVkKs987tWKBpd0LFw53vchyutSeHe1stXXd1rRSCsWu3lcmBRrUAss9cq95bFMvY0SMRfWruzYH2Wu13QuoX6JkH90__-IUO0D1DPfYUYi1FwZDIswJhl14bsb&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=QwnWLMtXU7cC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70hKc3PtH5Fs4jvyoDWkiQWxhBcmzriF7kTVNAHjY22_75HLXqeO95iilxotRO0sIbmYN4-w9GDgp0e3CDwcy1-WBmL0TYx-8fizviEsvZXpaskiWR_rV3cMo2oBX155_u-Np62&source=gbs_api",
         "small": "http://books.google.com/books/content?id=QwnWLMtXU7cC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71e23e3RAn8UpqppjvxNOvWPsOkUJ-W5U0i1uieJ3Y2QFJ9nB4MUtrspEdY9IRDfmD0PpJWFWocveqEn6r7Q4uPL0Zx6c6c8fOgCIiNm6ZgR3uHRE2LN9ygblUv5uZm9w16pVh5&source=gbs_api",
-        "medium": "../Images/four.jpeg",
+        "medium": "assets/images/four.jpeg",
         "large": "http://books.google.com/books/content?id=QwnWLMtXU7cC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71yNTCPa3uibSz9yuRP2H30laJcjwJ3jClef-puLH04yTnG0M3BHULWU9lji-rbtStvjfo9UN_NBboSUisiXrYoMT5M4bqKuFVl2xjc4ryHkPJDQ_6TQIdm_KGT9W1TGUN0K9dh&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=QwnWLMtXU7cC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71zJ4bFgmroPKH6HiCrCPKYdDiBN_vHrulP4IIoQq_wvPYOCO-6gUVeMBUIVXplJlknHU6dmkCv-JQHFVhW7i_yzty2aUo8cn2pIQCgaUPauIyzgMdt6kZJ6J0DQ1d32tcUW8KH&source=gbs_api"
       },
@@ -443,7 +443,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=lfHo7uMk7r4C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73oDq1XYyzHtqAfY16EpgDE9C62fDrNbtbl3vSf4rx4YoZZbdLdVybZy_mwxarvfQvrzJ69kzl4dOlt9impRsWrbrGm7g63QYFaxTLzKICfozBcjbZdcbTswmgFeS7oraGXywop&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=lfHo7uMk7r4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72wV5hkvUNvpQhmCNFBoXMOmS_t9w5KSBoiKKQymFFluSQ2E84X_A3yNDaUZr2QicpdZBxW0wCbDFeeECwMFGlwmQMiJq9Z45ueCtF4dn54hKR7opNd6dVz2axVs9MtA_HJoohV&source=gbs_api",
         "small": "http://books.google.com/books/content?id=lfHo7uMk7r4C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71VJ6nNwCGWsPkkuBCcePF0BU2jjDOiNITaeq1QoApxv9k6gaAl2h92YRltGDRb96MRUxLq3xNCFR5kz5CHjmS2Ki-Ccoyo4Ln6dXV0bGd2GbZwXP2adOwsYH42rCFgnNgocw1l&source=gbs_api",
-        "medium": "../Images/five.jpeg",
+        "medium": "assets/images/five.jpeg",
         "large": "http://books.google.com/books/content?id=lfHo7uMk7r4C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73Xyy-3UljNPqi8URXrLLE2l5nZ9dKhKMKlmF4jiq1gfmlMUF0WFhcGlVnVL3te9K4FYgEjfmpqdohlzWVBAL_fwwITfH4gG-TkX3HMGee9IEja4oaFqkOyikc4NRcrIVQM3umy&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=lfHo7uMk7r4C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72QGzoG4fgHor1VdFR0T3oSHpJtw7e_zeWnvst2IEavdoD0v40RxEuybVXQE0vGmbF6AUAOfe8P47ls_Vt0I-Qf8CD1YuGGkPvESiuEhCFIpBCYwTOUqIZdf-CY3VrPOvV5XYi6&source=gbs_api"
       },
@@ -540,7 +540,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=YH1VAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70cPRhj7HPbjUZvrI7yjQaeMUAfzkQCMTD3dPBsQlUvP810eWLUPM0A_jl6Vd1tx5GuA0FJ_7DZ1o1msD1KqhWZ48C1_kUJL87vpgiWts7V1Cb1ZbNgId_I4jbca5Pt8nSv9r3Z&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=YH1VAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE737cT_1RaLDfqtIa_ruJ3NDIoYYpFi6KtpvhgnCdSb3ARyUcaLHAicQ-tfF0syCkdtu88tVPXHVbK_fUkXcuFjSgVfGNlI9qT-5pQGYiPLqpi3X4EkFGbfHeL9n3XZQ7QYyAWuL&source=gbs_api",
         "small": "http://books.google.com/books/content?id=YH1VAAAAcAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71arU_fSBMxT_bEI9gY4bICLE801mhsySCS6d84170NjWn7ZbY9ojDryoJCQ1DwG-zSPsX_z2VzpYRIG9PgB_RvFMXXqWfe7bAfJSD6AQL5N0CJezY7-ZNrR3IWsfl6ajBRf71D&source=gbs_api",
-        "medium": "../Images/six.png",
+        "medium": "assets/images/six.png",
         "large": "http://books.google.com/books/content?id=YH1VAAAAcAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73VB89OLKeDvTsUVsX72t9tPxb0ouZ9URDQ-8iRWb714R7Fc-ebzQ5xPYKUwXiJkNrPjFp8kw3i_MlvtghOifcSK727npWbX-vnc0KJcmstHB684mC0nXI1e1ISeiBxBF7U68l7&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=YH1VAAAAcAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73gzND-zU0QRiPDzTYCbQS2DaOa8wyQ2AQSPLH5tVclTg9j5mjYnQky9a5-enw7fbuaYbYB0326JyGeUIwPgyAJUWULr4O-rMEowtPOV81Bc3g1ytC3NR1Hn5AkKiTAgfyKrbP3&source=gbs_api"
       },
@@ -608,7 +608,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=UapPAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE712NUzjnLzhzYKY6jeV4YB5kn69MnGavsS5YiSW2_Z2yRMa38IBlzsKakaAXR_AK09rNwN4sOmr6XLFUz1g2EIpwbcu385txHLaQfCzTAuKm93C7Jc7IYfFvSxjh5q-wx5RWXsN&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=UapPAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71UXLyfTAlKyZ8gL-Vjm3iVrWEHG3GBrCN-P_VNZYhj453noV_3EkIx7ocY4HYWwi54m6Gz65IpVCFpoHJDELhmGkTdC4uk5kQsg5eicnhugQYGslPaGgR_I84TE_PZ3T9MrEd9&source=gbs_api",
         "small": "http://books.google.com/books/content?id=UapPAAAAcAAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73PDcxTgszmj8FJFeHgjGvFkOKFFWem-KWFbWW6-wHEfy1Vi2qnNjOZ-gGEa1wehmXLE3Sq-et9JLqPfMT9obbUR4AnoVJw4hMQqT6y8R17WjCPAtfVY-xeFUkhCqUvn_EwG-Jj&source=gbs_api",
-        "medium": "../Images/seven.png",
+        "medium": "assets/images/seven.png",
         "large": "http://books.google.com/books/content?id=UapPAAAAcAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72sTvmUg3-IKadjNKEu7KPRdPKcSV0-cMqU-clQ21u61OAaJTG937fRd0lYmjueLZcf5L7K6u4zb44yE2H8KpfzJnQGdPFUr6bJ77gIvTNkLmLLRBAqT6OO-Ixhsd-7LDuHlpDs&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=UapPAAAAcAAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE715g2jMFx-CFdLWi5saaR3QNoxgy_b3CnoaRHXmS3JVZB3oOdT-As0HypAzEHHokncAJoQTnZBqdzbS8QrEmmQPj5j7j6yaqLP8JE1LyI-rrHngh49EOmUm1eD6fNptE4eeLC6g&source=gbs_api"
       },
@@ -695,7 +695,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=T-oY6jbgjs8C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70pLL9BEqUhHH37-07Ky7IzNeeMGe7Fr88QK1lhT83fHglKUzgVjocoFcyw0srjVUfBIaaIEkwx3e4i1XYGqs1w9xAPvgukHud5k58Koke1fO76_3hZyMH1uZuIVIYUIwdmTSUo&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=T-oY6jbgjs8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71zFLCH2YkzK2d4R6PVRIpeUKwIQmw20wImuNLOoD2hClqjNFJp-EDdoQb0btuPpbGvyEY0ZigcwabJ4hFp4DEwax-YW-LRClDjnIR8Qcygg5F5bHdKddrnHWompBlK1syd667I&source=gbs_api",
         "small": "http://books.google.com/books/content?id=T-oY6jbgjs8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71FSfstJFuqru7GhTqwTTJgm87axu1J5zIIyGpochYHuzvQWZMz63eEDw9lT7CN5IPX69WAn-Kzqqhqv5hQSNjFARPGEHayhJ6X8qA5WTIa2KWntjWORXPuBENcONkEYgXs8qBi&source=gbs_api",
-        "medium": "../Images/eight.jpeg",
+        "medium": "assets/images/eight.jpeg",
         "large": "http://books.google.com/books/content?id=T-oY6jbgjs8C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71Arnmegzvr6hRK5lckU0gdZfFQ5gXX_EYxjiDQAMkZgt1txcSg9VsoI0Mdix-dJSYUlJ2-Fjw_vEK4p1f-k7MiEfHwS3G1zSro6ePn0Ce59Zm4YLpkFsXZ3081WHnz_pY04K31&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=T-oY6jbgjs8C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73sn7zuhcvmpN-IoPl0Rn0zG1m6LjZY_wTg3KoDb8khpH3zPTnuoG-GxtTV_ayQ-84WM7ENpkUClpPhebwxCKkzymopB_1vo1t2It45BZRBp1wBAnWjb3XrOqygsQfLDM7T_-dE&source=gbs_api"
       },
@@ -773,7 +773,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=JgFTUsIC0bUC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73LfCtalmH3rCxYDluI0Kt1NNPALod6EGLxGdlJvatoxJNA7TxwBhi1bAM2WuIllv4LSSiMBoFvXWxMgNQCMIuCQaYRtv3i_uIsGUvuAdnOGtFSX03wpFTFm5Wj42l2vIti8HFe&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=JgFTUsIC0bUC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73IAcVq41eDZc0JxjbMMoL1awtSXLqzRcjX-uH1Ixnivzx9H9BR7wHQftTCoTnnVHqaiEhQwsmt7xTGPeEj7OULdzb55hTFfLi_1BDB2RyOImJEbiwr8Q6iq7PYXQhM86B8-xD0&source=gbs_api",
         "small": "http://books.google.com/books/content?id=JgFTUsIC0bUC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73y7ku5OScN1uZbbeP56MUiitr-ZTRWBNR42cZvFFncuTQPGdVRTjhWUme2CfPd1iOIhwnwASLY4eVnxN9hUx4yPvBDB1pLBW9SCU9njV8kknFXs9WGPeV7zXlvd-NFKydu_4ap&source=gbs_api",
-        "medium": "../Images/nine.jpeg",
+        "medium": "assets/images/nine.jpeg",
         "large": "http://books.google.com/books/content?id=JgFTUsIC0bUC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70MMRJc6gKmffvmulofNTbZqvriyCvxpRuf_s9eDB8sv4wFQREzG6lpgaVGao8E5OGgsrEmseSJvrGc6-VNjhbjrpFht2s-c6HtHc_CQxETfsY3K63Qbk95jCV-fPsC9V1Lb46x&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=JgFTUsIC0bUC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70HageL6cab7HvBCLKZe9k_CP7oZKTvrcMxMvAN7WRxfMTxvLIpnA0DxX9usy4b1XiIdyt4V92zIihRGs8Nt6sVpxPgP3HvpGXcqg_dvqRXy3Z1pXmcWfThzLGSo6sTwitq5ehp&source=gbs_api"
       },
@@ -882,7 +882,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=quDJCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71ly6bkXG7SklYgxH5ZAmGxC0dVZPatQoGAhcyi9vXrtxM2H6BEAnvXJfSsTNWE5AVkr7pCOTQp5gzZxJTQWK4xN4nTW_icYN2couaZHQqkIF9mq7K4ycJ1kaF7M1fATgZeOFpz&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=quDJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE723I15g1CBTsulmTML-vnaRx6tNNkem3zUH7LozATkyqeYnRfj7EGkBxlDfRuy6FkbcQm1RIvU_KoDhI1vAMqIezSC9kaVnJigARAHzf-F2XriWYH8q32Ja8JxjxOiKH1hqpMKB&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=quDJCgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE714hE-F-NTCzA2PhD_T2aEcUka4kEUh6zM-2FUeYUpaQTywF45wedEKYN0xgb0_nDcYssPB-97p483hqFUtcMYAhEDYNyesUhQ8bRQ6bzMs3qd5VA1Pw5njNGzS06_NWBI1MuSv&source=gbs_api",
-        "medium": "../Images/ten.jpeg",
+        "medium": "assets/images/ten.jpeg",
         "large": "http://books.google.com/books/publisher/content?id=quDJCgAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE736PC6uL9mMc8A8Ou56xUritpVpq-AJLpashla9GkUtOX9cYDmXRD31bdluX9cVLwXw5TqnaPdEBatBAZ9c3wm0Xn9ro9MT667-wFGQvPxl-PlWDpTfgRXty58FI8AaE_kZ1xDP&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=quDJCgAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71joQtq4pKvnPtLOlDt2TTZN70E1WluRfsXjK29jVkxFMlJMXfUYR7dg8EDNSfs7_kvIqzva_M4jLUpgksB-Ww_JtZZHK9xElqe0XRx7ETTn9cE4nj5as_nZqxGp1AVdV-enb1f&source=gbs_api"
       },
@@ -965,7 +965,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/content?id=i9YVaD9-hcwC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71bfOKpAUbtLRPRUWZBerlWxPN8PBfoW1gHJWMHkwp6mMeSayMy4fvHVb-gDm8e62AZH0sREaPg9LY9Jpz0bKaVyLYK2bKwQ2oY7DqTMN-m_zmMxwReZJ7zo70NrnHQWOV2LbTU&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=i9YVaD9-hcwC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72y4BlftyEi06BH-WQSqj21NpLFOGSpUOLBb7zhT1y6YMuky7xTK2uqnV5c4NsomhCiFndmU7JE1tm6J7ZLfK7PNkTyZLDLlOHD8re7_UdIydCOoRsM8NUVV4E3yWvstz5PNCKb&source=gbs_api",
         "small": "http://books.google.com/books/content?id=i9YVaD9-hcwC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70ZpAg7NDHySWs86FN7-n5ol3bvsbqnzXc5jqru7RXJlf9rJyD80h5zF61AAfJ76lg9X_CzhI-WR7IRjXxK8PfMlQfBxTblXJlWpGblrbICsjMz9uxH11HWF_JIQwOMY_4okeUW&source=gbs_api",
-        "medium": "../Images/eleven.jpeg",
+        "medium": "assets/images/eleven.jpeg",
         "large": "http://books.google.com/books/content?id=i9YVaD9-hcwC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73WnufvcI7bbonhi4BFQbWW2LIQgTOv_Um9leV1kqowXcZNyqfIEkQK3feIEbPWyUKt4tDD7x-7xg2JnWAar0XJ8PJuOILPmJVBPGQMUmqqxE43HSBou7POOzutXdBOrF5rWo8q&source=gbs_api",
         "extraLarge": "http://books.google.com/books/content?id=i9YVaD9-hcwC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE70xyY1INJzWXVSq8pRalgapDYiNhe0SLYE4HeuhgCG-KRqvMFCmqWdTWPf5A4jGGoeRvve6jl8OGfFOV2xNJ5yjNEQ6IjRqAs74rveX5KDVve0EFESZfODC3nhVr2Gg63lfonsD&source=gbs_api"
       },
@@ -1050,7 +1050,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=Q0C3BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70HxVXOhp8yZ4NfLhPHmqv6lRF42yQneRTkJetJkXackNgxHChSp0J8FQn7pDckanEm3gZhqPJ8i7Qr-xLx_rHwvSx2haK7K0vevb25J72xMXjqoDIkpby9tEnIalC1A8O5PA4E&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=Q0C3BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Y-v9-YtVzwvy4re97SysF0OhaHnBNMW5cMSuWzd1C9ceMPUteqtxeKn7vun2hOS3G2Be4cyJekgjm_Zr8Fb-OQqnRnkd03CyVeYM23sW64sY3pJC2dOBeTC-BPszA38moRMWi&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=Q0C3BwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73rUddhU4gmIa5ClGTR5pXTmVSgoQ-BdTbiWHS2f8tY8aysiTCX-L5GFfjubvP_wEZfUX-Wc9K9F69mMRR1MWCLK80TnE4bsYwoXSjIIBb9vBOvOwpoXLq8kYcoLrNKuX0rzmFw&source=gbs_api",
-        "medium": "../Images/twe.png",
+        "medium": "assets/images/twe.png",
         "large": "http://books.google.com/books/publisher/content?id=Q0C3BwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE732etFzox-n_or9FxpI3a73nvOisjAOkazujRWhe0IUHuOFSzCQ9eKNl9HU0L2I75vulVw6oXWPvNQhBzedxGMd7ZNJwEbV4dq_J-4abHx22y-oJ5lj-6cHch7wOkqd5mmA8p0n&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=Q0C3BwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73mwj4a9X527-oYBL9lpbklQ09v2LVjeZ4FWtFnJJQiycTy8gxkoncTvIHvVsC8sJZQuXGRF_snLvMoNT_JcOqSRpPw3TqzG8OrXlykhDMp248tkXG99wpFEjaFAgcpyYouP1oa&source=gbs_api"
       },
@@ -1127,7 +1127,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72kNvRlHIgNiasUzxPOG1u1GTOIjdpfwiAOPUdtl9ZWzNADTKbTxQKJ0XyrKTOwtsNHsgKHI9bMN4gCs2DnGARyhPB0AzkrXqTyD2XgpMjBVTVSaz4g6ICqwe_dTS_08mqp1wGc&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70MCp-ICbcOMxJKkMakPTQ5zXB-LWF3LRw0Kd7HZxI79YaPEnzZIgEF8QHsOh-mZTGTa6HcKNz9-sEk6dXNad6SKD-WOJ17B28wSsSAbr4a56JuVh0dkbaCXKa0HmKyBUxL33WF&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73vdWVC7IvM32BHDConGMsLTfqLgLJFfCKxqvOatuphQY3C5bHUVKzMhl9iUFB0ZqWeysTRtzbiTHg2bJiDeQ3YRNYMQyYhIFmEZduKPvGOMfimFnwk5qKTp4qYkk2oKXY8_kTt&source=gbs_api",
-        "medium": "../Images/ter.jpeg",
+        "medium": "assets/images/ter.jpeg",
         "large": "http://books.google.com/books/publisher/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE723RB9XywBdxKdn28jA7zdHuvDJOGZbkH6J1gnU7zGJ67agLcI6EkIpwoOjK-Q2meA34PJikqcq4zhHNJv370fTQDn7Z6X1A0witlvEt-qs8Xj5dnY7Km0nucLu2nw26JAOm-cv&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=yBaVDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72_EY-wmIP-K2bZXSv0-3ChDaKw2YdUTz6WsBJ2BHuNLi7fvIIjKCX9E_ej_xirOHyorLw9CINaWuF-qqGDZoeOqDrOyTFgHom7PvB8c99M4pfOWQXRlXeacfDsmNsHWoCHzH4Q&source=gbs_api"
       },
@@ -1231,7 +1231,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73noajXLOBu-nyrEgQsi3kClcxQPaWeV1ffXkuub8hm_AVLQicuUTY4Rh1yK_PPNzs0DYU3LNaAAgjDaLmOVb-zPS-cUiVo_KRA5Ol5-tA1-toRC2fCNRm1K03M0BuKTXJf9-MN&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72h5zBOmy-9ft2gowkP18miFkc708HUUktr1Yq13GSkvSGUcIjkEULRr_eF2z6x0GTBZgmF9_Ryab7Xu_it7ey2w-KjO8bY6vfcn_7eS-85jTgvygHqhY_DMbvwPOTRHi0-0y04&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70ax0U9cvegHMtSAlhpf83l5UoFuTwCcJB4ROCzLix4h17wspGjfiqAY4xRdw0w1TF_ReeF3tXNsryCEXus2LKVBPOnnKPVyVDRnAU6ywSg82mCs-F4nTozOz5lrG6hm-4EL8ik&source=gbs_api",
-        "medium": "../Images/fourty.png",
+        "medium": "assets/images/fourty.png",
         "large": "http://books.google.com/books/publisher/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73XzlKZFBRMVG0cGNTiBe5LZYOzFTVoUMJNO7ysJX6uFinSy25kwKq2wLuhFhQG1njeD3EmueRuZn2QgwQsONoYPc2mEJEgLGiwHVVaHukwvcNp80PjkV_JanBzU3B1HQ5BixFc&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=dYm3EAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71e0gCRruAJTOv7cPjSjqUqBKU6GmbpiM92Te9Vfmy6fQOrqDDwQmFczwXiAGvYJDuoCmnpWeO_sVB-y70LPtLOGuODjgciFpvXLLuFelhZYni9wbDcuEHzByxq36e8bDFLhq2F&source=gbs_api"
       },
@@ -1331,7 +1331,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71nfjRNSfjhGBv4GDOXUS_SpQJK4GSLLOZ-6buiY9mwTRDxgYtWt65tkdTK4DNWTIrT-dcfP9bw8Qf9txFEYgIGE6c858jHGQZOhRJLnRux6Fnd0MP6372N3vvPWPSbxoNu4NzU&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73cNN8GaB06LZ3ovil1LsPOYUjdsLMKZlaHQj7KsiSDYNVMqJkanWxKdVh9Dq5taieDym-aabbI1ToQvYQuQTLOcJB4rmdaQgY9ev4RjfHYd18ucNVsHCBytWhYy9wEmZHLU5gA&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71fxFl5ncQShpa5tHse21Lyt57opT99Qg1NXnBBVguK9BG-qzTwn9WFshLvITbqxxFlZWZmHffgBXXS_iehGrzCzn-fGKlmz3VJqZbe_299cqzAAFJdxlvwdH58QLOSpQxk_Ck4&source=gbs_api",
-        "medium": "../Images/fifty.png",
+        "medium": "assets/images/fifty.png",
         "large": "http://books.google.com/books/publisher/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE7393F2IenP7FVieoWqFy-30bVrdl1Xl8aIsKSIcoUagP0or4n1t5JdLD8EHPhoxs492Faa-Xs8qQDNLo_q8UxE99-l-mc0tjbh7fhoQwrZ3YoNnZMHXILl80YFZO7XCgJW5Y_jQ&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=ATuAEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72KQLIiJ-G0__fGYjeUxHRWA3TqOXRdijqcpCE9_6Fo3C5bgQN6VXj2i4o3o0IIN0LTQcG9W4uRDdsFwy4q2IzXbKCqrKVkUWqvNmtRdQk2XmdsI6o1ZolHcaklbKYI0g8jQ0pr&source=gbs_api"
       },
@@ -1440,7 +1440,7 @@ const book = [
         "smallThumbnail": "http://books.google.com/books/publisher/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE723OMP5VH7IRbfAPJDrU2qGiXIpWH9pljYwZjjZlzhVKEygAk1-YL9o0h7uGAI1d2PCs_w9aoX5OnAYTFkL21MzL8m_XBkuUT0CMJZKr0NBaAHDDB7ANlIVPV7cI8f0XK1UVzaT&source=gbs_api",
         "thumbnail": "http://books.google.com/books/publisher/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71C1o_C3PWiRhb8rSsaW6_lWOAy71M5vgeEWSEbGkCx9EBDBgC_cVP5OJ1NyDEKGzs-npfJYcMt8bQfewJYzYyX6HMTsVcoO0aYBHIMsJgtM8177UFjXQhNnnwyUCewUjk1tHxb&source=gbs_api",
         "small": "http://books.google.com/books/publisher/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72ySMfw2RisrWAcaUZP6TCmXqUAEDDXohZ_vAMXWGhxUXuPc4BVpkC5fVxNzsxE9U502YYQZPCU8CyyG38KYvlPnW86Dhg3LwCr9CNlppnAyk6gXa9xoRsi5kDYYH27FzOB4C3s&source=gbs_api",
-        "medium": "../Images/sixty.jpeg",
+        "medium": "assets/images/sixty.jpeg",
         "large": "http://books.google.com/books/publisher/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE71Z9pR9Sdy3BM-7VUg6Xy6En_H-MmU3lvgv4xxD0Eg221QP85xfPlgQ8MFMegZclrE82RAovGT5eTprZ-ysbw8-gxIDMBxSvUQLBpfC_wcfzlA_FoaT_OytYPZqFwwl5ieOsgjV&source=gbs_api",
         "extraLarge": "http://books.google.com/books/publisher/content?id=cIXxDwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71Esl14VvOuGEmtFjblEPSctpUEXKupYGEUMtQcZYY1Dp40u31S35dyFobtBEQBr-0NqN0ite0EabxPtUGXoz_WjhQCbBEvwd9rD2cRXK7GxBbpfbdXkt1mOWTxxNKzzQQtzGvK&source=gbs_api"
       },
@@ -1811,10 +1811,11 @@ async function makeSearch() {
     else{
     for (let j = 0; j < data.items.length; j++) {
       const volumeInfo = data.items[j].volumeInfo;
-      const thumbnailUrl = volumeInfo.imageLinks && volumeInfo.imageLinks.thumbnail ? volumeInfo.imageLinks.thumbnail : "https://rb.gy/q7id9";
+      const rawThumb = volumeInfo.imageLinks && volumeInfo.imageLinks.thumbnail ? volumeInfo.imageLinks.thumbnail : "";
+      const thumbnailUrl = rawThumb ? rawThumb.replace(/^http:/, "https:") : "assets/images/noresults.png";
       api_book_container.innerHTML += `
         <figure class="movies_1 imghvr-push-down">
-          <img src="${thumbnailUrl}" alt="no image return!">
+          <img src="${thumbnailUrl}" alt="no image return!" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='assets/images/noresults.png'">
           <figcaption>
             <p><b>Author</b>: "${volumeInfo.authors ? volumeInfo.authors : 'Unknown'}"</p>
             <p><b>Title</b>: "${volumeInfo.title ? volumeInfo.title.slice(0, 60) : 'Unknown'}"</p>
@@ -1829,7 +1830,8 @@ async function makeSearch() {
     click2[t].addEventListener("click",()=>{
       if(login){
       const volumeInfo = data.items[t].volumeInfo;
-      const thumbnailUrl =volumeInfo.imageLinks && volumeInfo.imageLinks.thumbnail ? volumeInfo.imageLinks.thumbnail : "https://rb.gy/q7id9";
+      const rawThumb = volumeInfo.imageLinks && volumeInfo.imageLinks.thumbnail ? volumeInfo.imageLinks.thumbnail : "";
+      const thumbnailUrl = rawThumb ? rawThumb.replace(/^http:/, "https:") : "assets/images/noresults.png";
 cover_detail_1.style.display="block";
 show_about_book_1.style.display="block";
 let ava_1=data.items[t].accessInfo.epub.pdf=="true" ? "is Available" : "is not Available";
